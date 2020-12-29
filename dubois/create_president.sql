@@ -1,4 +1,5 @@
-CREATE TABLE president
+drop table if exists president;
+CREATE TABLE if not exists president
 (
   last_name  VARCHAR(15) NOT NULL ,
   first_name VARCHAR(15) NOT NULL ,

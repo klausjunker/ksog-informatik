@@ -1,5 +1,5 @@
 #!/bin/bash
-cp ./config/.my.cnf ~
+cp ./einrichten/.my.cnf ~
 cd dubois
 mysql <create_president.sql
 mysql <insert_president.sql

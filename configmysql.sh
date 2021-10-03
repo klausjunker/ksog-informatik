@@ -1,5 +1,4 @@
 #!/bin/bash
-cp ./einrichten/.my.cnf ~
 cd beispiele
 mysql <create_president.sql
 mysql <insert_president.sql
